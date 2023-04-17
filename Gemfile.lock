@@ -492,7 +492,7 @@ DEPENDENCIES
   pg
   pry-byebug
   pry-rails
-  psych (< 4.0)
+  psych (= 3.3.4)
   puma
   pundit
   rack-timeout
