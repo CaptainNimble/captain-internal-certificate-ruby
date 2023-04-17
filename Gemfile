@@ -32,7 +32,8 @@ gem 'jsbundling-rails' # Bundle and transpile JavaScript
 gem 'i18n-js', '3.9.0' # A library to provide the I18n translations on the Javascript
 # gem 'devise-i18n' # Translations for Devise
 
-gem 'psych', '< 4.0'
+# Fix Ruby 3.1 that uses psych version 4.0 and conflicts with rails-template
+gem 'psych', '3.3.4'
 
 group :development do
   gem 'foreman' # Manage Procfile-based applications
