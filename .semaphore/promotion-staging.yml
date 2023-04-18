@@ -11,7 +11,7 @@ global_job_config:
     - name: HEROKU_APP
       value: captain_internal_certificate_ruby-staging
     - name: DOCKER_IMAGE
-      value: nimblehq/captain_internal_certificate_ruby
+      value: captainnimble/captain_internal_certificate_ruby
   secrets:
     - name: captain_internal_certificate_ruby
   prologue:

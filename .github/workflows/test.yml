@@ -6,6 +6,7 @@ on:
     branches:
       - develop
       - main
+      - chore/2-setup-cicd
 
 env:
   DANGER_GITHUB_API_TOKEN: ${{ github.token }}
