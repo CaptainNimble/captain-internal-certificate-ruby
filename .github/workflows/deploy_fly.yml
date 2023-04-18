@@ -8,7 +8,7 @@ on:
       - master
       - main
       - development
-      - chore/2-setup-cicd
+      - 'chore/2-setup-cicd'
     types:
       - completed
   workflow_dispatch:
