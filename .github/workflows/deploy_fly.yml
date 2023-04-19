@@ -2,8 +2,8 @@ name: Deploy Fly
 
 on:
   push:
-  branches:
-    - 'chore/2-setup-cicd'
+    branches:
+      - 'chore/2-setup-cicd'
 
 env:
   FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
