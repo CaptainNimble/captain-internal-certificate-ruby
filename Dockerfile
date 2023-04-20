@@ -89,8 +89,6 @@ RUN yarn install --network-timeout 100000
 # since the app files always change thus cannot be cached
 COPY . ./
 
-# Remove tmp/docker in the final image
-RUN rm -rf tmp/docker
 
 # Compile assets
 RUN bin/docker-assets-precompile
