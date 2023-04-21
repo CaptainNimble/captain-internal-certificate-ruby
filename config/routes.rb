@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   root "rails/welcome#index"
+
+  get "/health_check", to: proc { [200, {}, ["ok"]] }, as: :rails_health_check
 end
