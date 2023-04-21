@@ -45,6 +45,7 @@ group :development do
   gem 'spring-commands-rspec' # This gem implements the rspec command for Spring.
   gem 'spring-watcher-listen', '2.0.1' # Makes Spring watch the filesystem for changes using Listen
   # gem 'web-console' # Use console on exceptions pages
+  gem "dockerfile-rails", ">= 1.2"
 end
 
 group :development, :test do
@@ -104,5 +105,3 @@ end
 group :production do
   gem 'rack-timeout' # Rack middleware which aborts requests that have been running for longer than a specified timeout.
 end
-
-gem "dockerfile-rails", ">= 1.2", :group => :development
