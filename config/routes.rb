@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   root "rails/welcome#index"
 
-  get "/health_check", to: proc { [200, {}, ['ok']] }
+  get "/health_check", to: proc { [200, {}, ['ok']] }, as: :health_check
 end
